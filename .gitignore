@@ -1,0 +1,15 @@
+*.pbxuser
+#
+!default.pbxuser
+#
+*.modelv3
+#
+*.xcbkptlist
+#
+UserInterfaceState.xcuserstate
+#
+*.xcuserstate
+#
+xcuserdata
+#
+xcuserdata/
