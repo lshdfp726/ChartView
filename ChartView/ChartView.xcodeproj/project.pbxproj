@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE7798ECF595D34093E7F0D /* libPods-ChartView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D40F8F50008F24243A694 /* libPods-ChartView.a */; };
+		ECBD69A31F413F3200747302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69A21F413F3200747302 /* main.m */; };
+		ECBD69A61F413F3200747302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69A51F413F3200747302 /* AppDelegate.m */; };
+		ECBD69A91F413F3200747302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69A81F413F3200747302 /* ViewController.m */; };
+		ECBD69AC1F413F3200747302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD69AA1F413F3200747302 /* Main.storyboard */; };
+		ECBD69AE1F413F3200747302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBD69AD1F413F3200747302 /* Assets.xcassets */; };
+		ECBD69B11F413F3200747302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD69AF1F413F3200747302 /* LaunchScreen.storyboard */; };
+		ECBD69BC1F413F3300747302 /* ChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69BB1F413F3300747302 /* ChartViewTests.m */; };
+		ECBD69C71F413F3300747302 /* ChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69C61F413F3300747302 /* ChartViewUITests.m */; };
+		ECBD69E11F41402B00747302 /* ColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69DC1F41402B00747302 /* ColorHex.m */; };
+		ECBD69E21F41402B00747302 /* ColorToImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69DE1F41402B00747302 /* ColorToImageTools.m */; };
+		ECBD69E31F41402B00747302 /* ColorValuesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69E01F41402B00747302 /* ColorValuesManager.m */; };
+		ECBD69E91F41404C00747302 /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69E61F41404C00747302 /* ChartView.m */; };
+		ECBD69EA1F41404C00747302 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69E81F41404C00747302 /* DataModel.m */; };
+		ECBD69ED1F41425B00747302 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBD69EC1F41425B00747302 /* CoreGraphics.framework */; };
+		ECBD69F31F414C9300747302 /* ShowDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69F21F414C9300747302 /* ShowDetailView.m */; };
+		ECBD69F71F414D0300747302 /* QuickCreateUI.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69F61F414D0300747302 /* QuickCreateUI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBD69B81F413F3300747302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBD69961F413F3200747302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBD699D1F413F3200747302;
+			remoteInfo = ChartView;
+		};
+		ECBD69C31F413F3300747302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBD69961F413F3200747302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBD699D1F413F3200747302;
+			remoteInfo = ChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305D40F8F50008F24243A694 /* libPods-ChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChartView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4B71AC7D1393217B8B8D17 /* Pods-ChartView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartView/Pods-ChartView.release.xcconfig"; sourceTree = "<group>"; };
+		DACEEE0FE7B3CA4778E51C47 /* Pods-ChartView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartView/Pods-ChartView.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBD699E1F413F3200747302 /* ChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD69A21F413F3200747302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECBD69A41F413F3200747302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECBD69A51F413F3200747302 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECBD69A71F413F3200747302 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECBD69A81F413F3200747302 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECBD69AB1F413F3200747302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBD69AD1F413F3200747302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBD69B01F413F3200747302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBD69B21F413F3200747302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBD69B71F413F3300747302 /* ChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD69BB1F413F3300747302 /* ChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewTests.m; sourceTree = "<group>"; };
+		ECBD69BD1F413F3300747302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBD69C21F413F3300747302 /* ChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD69C61F413F3300747302 /* ChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewUITests.m; sourceTree = "<group>"; };
+		ECBD69C81F413F3300747302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBD69DB1F41402B00747302 /* ColorHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHex.h; sourceTree = "<group>"; };
+		ECBD69DC1F41402B00747302 /* ColorHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorHex.m; sourceTree = "<group>"; };
+		ECBD69DD1F41402B00747302 /* ColorToImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorToImageTools.h; sourceTree = "<group>"; };
+		ECBD69DE1F41402B00747302 /* ColorToImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorToImageTools.m; sourceTree = "<group>"; };
+		ECBD69DF1F41402B00747302 /* ColorValuesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorValuesManager.h; sourceTree = "<group>"; };
+		ECBD69E01F41402B00747302 /* ColorValuesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorValuesManager.m; sourceTree = "<group>"; };
+		ECBD69E51F41404C00747302 /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		ECBD69E61F41404C00747302 /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+		ECBD69E71F41404C00747302 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		ECBD69E81F41404C00747302 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		ECBD69EC1F41425B00747302 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECBD69EE1F4142E600747302 /* ChartView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ChartView-Prefix.pch"; path = "ChartView/ChartView-Prefix.pch"; sourceTree = "<group>"; };
+		ECBD69F01F4144D700747302 /* ChartView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChartView-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		ECBD69F11F414C9300747302 /* ShowDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDetailView.h; sourceTree = "<group>"; };
+		ECBD69F21F414C9300747302 /* ShowDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDetailView.m; sourceTree = "<group>"; };
+		ECBD69F51F414D0300747302 /* QuickCreateUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCreateUI.h; sourceTree = "<group>"; };
+		ECBD69F61F414D0300747302 /* QuickCreateUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickCreateUI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBD699B1F413F3200747302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD69ED1F41425B00747302 /* CoreGraphics.framework in Frameworks */,
+				2BE7798ECF595D34093E7F0D /* libPods-ChartView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69B41F413F3200747302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69BF1F413F3300747302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5098BE12C0572E789660AE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DACEEE0FE7B3CA4778E51C47 /* Pods-ChartView.debug.xcconfig */,
+				DA4B71AC7D1393217B8B8D17 /* Pods-ChartView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECBD69951F413F3200747302 = {
+			isa = PBXGroup;
+			children = (
+				ECBD69A01F413F3200747302 /* ChartView */,
+				ECBD69BA1F413F3300747302 /* ChartViewTests */,
+				ECBD69C51F413F3300747302 /* ChartViewUITests */,
+				ECBD699F1F413F3200747302 /* Products */,
+				ECBD69EB1F41425B00747302 /* Frameworks */,
+				D5098BE12C0572E789660AE5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBD699F1F413F3200747302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD699E1F413F3200747302 /* ChartView.app */,
+				ECBD69B71F413F3300747302 /* ChartViewTests.xctest */,
+				ECBD69C21F413F3300747302 /* ChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBD69A01F413F3200747302 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69F41F414D0300747302 /* QuickCreateUI */,
+				ECBD69E41F41404C00747302 /* ChartViewModule */,
+				ECBD69DA1F41402B00747302 /* ColorManager */,
+				ECBD69A41F413F3200747302 /* AppDelegate.h */,
+				ECBD69A51F413F3200747302 /* AppDelegate.m */,
+				ECBD69A71F413F3200747302 /* ViewController.h */,
+				ECBD69A81F413F3200747302 /* ViewController.m */,
+				ECBD69AA1F413F3200747302 /* Main.storyboard */,
+				ECBD69AD1F413F3200747302 /* Assets.xcassets */,
+				ECBD69AF1F413F3200747302 /* LaunchScreen.storyboard */,
+				ECBD69B21F413F3200747302 /* Info.plist */,
+				ECBD69A11F413F3200747302 /* Supporting Files */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		ECBD69A11F413F3200747302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69F01F4144D700747302 /* ChartView-Prefix.pch */,
+				ECBD69A21F413F3200747302 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECBD69BA1F413F3300747302 /* ChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69BB1F413F3300747302 /* ChartViewTests.m */,
+				ECBD69BD1F413F3300747302 /* Info.plist */,
+			);
+			path = ChartViewTests;
+			sourceTree = "<group>";
+		};
+		ECBD69C51F413F3300747302 /* ChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69C61F413F3300747302 /* ChartViewUITests.m */,
+				ECBD69C81F413F3300747302 /* Info.plist */,
+			);
+			path = ChartViewUITests;
+			sourceTree = "<group>";
+		};
+		ECBD69DA1F41402B00747302 /* ColorManager */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69DB1F41402B00747302 /* ColorHex.h */,
+				ECBD69DC1F41402B00747302 /* ColorHex.m */,
+				ECBD69DD1F41402B00747302 /* ColorToImageTools.h */,
+				ECBD69DE1F41402B00747302 /* ColorToImageTools.m */,
+				ECBD69DF1F41402B00747302 /* ColorValuesManager.h */,
+				ECBD69E01F41402B00747302 /* ColorValuesManager.m */,
+			);
+			path = ColorManager;
+			sourceTree = "<group>";
+		};
+		ECBD69E41F41404C00747302 /* ChartViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69F11F414C9300747302 /* ShowDetailView.h */,
+				ECBD69F21F414C9300747302 /* ShowDetailView.m */,
+				ECBD69E51F41404C00747302 /* ChartView.h */,
+				ECBD69E61F41404C00747302 /* ChartView.m */,
+				ECBD69E71F41404C00747302 /* DataModel.h */,
+				ECBD69E81F41404C00747302 /* DataModel.m */,
+			);
+			path = ChartViewModule;
+			sourceTree = "<group>";
+		};
+		ECBD69EB1F41425B00747302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69EE1F4142E600747302 /* ChartView-Prefix.pch */,
+				ECBD69EC1F41425B00747302 /* CoreGraphics.framework */,
+				305D40F8F50008F24243A694 /* libPods-ChartView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECBD69F41F414D0300747302 /* QuickCreateUI */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69F51F414D0300747302 /* QuickCreateUI.h */,
+				ECBD69F61F414D0300747302 /* QuickCreateUI.m */,
+			);
+			path = QuickCreateUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBD699D1F413F3200747302 /* ChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBD69CB1F413F3300747302 /* Build configuration list for PBXNativeTarget "ChartView" */;
+			buildPhases = (
+				47FEF5B55F2E15A0503C7C86 /* [CP] Check Pods Manifest.lock */,
+				ECBD699A1F413F3200747302 /* Sources */,
+				ECBD699B1F413F3200747302 /* Frameworks */,
+				ECBD699C1F413F3200747302 /* Resources */,
+				2EECDCA2CD6BF4D816C82589 /* [CP] Embed Pods Frameworks */,
+				AE4D58F679E08A3B0D9B52D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartView;
+			productName = ChartView;
+			productReference = ECBD699E1F413F3200747302 /* ChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBD69B61F413F3200747302 /* ChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBD69CE1F413F3300747302 /* Build configuration list for PBXNativeTarget "ChartViewTests" */;
+			buildPhases = (
+				ECBD69B31F413F3200747302 /* Sources */,
+				ECBD69B41F413F3200747302 /* Frameworks */,
+				ECBD69B51F413F3200747302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBD69B91F413F3300747302 /* PBXTargetDependency */,
+			);
+			name = ChartViewTests;
+			productName = ChartViewTests;
+			productReference = ECBD69B71F413F3300747302 /* ChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBD69C11F413F3300747302 /* ChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBD69D11F413F3300747302 /* Build configuration list for PBXNativeTarget "ChartViewUITests" */;
+			buildPhases = (
+				ECBD69BE1F413F3300747302 /* Sources */,
+				ECBD69BF1F413F3300747302 /* Frameworks */,
+				ECBD69C01F413F3300747302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBD69C41F413F3300747302 /* PBXTargetDependency */,
+			);
+			name = ChartViewUITests;
+			productName = ChartViewUITests;
+			productReference = ECBD69C21F413F3300747302 /* ChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBD69961F413F3200747302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lsh726;
+				TargetAttributes = {
+					ECBD699D1F413F3200747302 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+					};
+					ECBD69B61F413F3200747302 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECBD699D1F413F3200747302;
+					};
+					ECBD69C11F413F3300747302 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECBD699D1F413F3200747302;
+					};
+				};
+			};
+			buildConfigurationList = ECBD69991F413F3200747302 /* Build configuration list for PBXProject "ChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBD69951F413F3200747302;
+			productRefGroup = ECBD699F1F413F3200747302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBD699D1F413F3200747302 /* ChartView */,
+				ECBD69B61F413F3200747302 /* ChartViewTests */,
+				ECBD69C11F413F3300747302 /* ChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBD699C1F413F3200747302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD69B11F413F3200747302 /* LaunchScreen.storyboard in Resources */,
+				ECBD69AE1F413F3200747302 /* Assets.xcassets in Resources */,
+				ECBD69AC1F413F3200747302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69B51F413F3200747302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69C01F413F3300747302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EECDCA2CD6BF4D816C82589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartView/Pods-ChartView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47FEF5B55F2E15A0503C7C86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4D58F679E08A3B0D9B52D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartView/Pods-ChartView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBD699A1F413F3200747302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD69A91F413F3200747302 /* ViewController.m in Sources */,
+				ECBD69EA1F41404C00747302 /* DataModel.m in Sources */,
+				ECBD69E31F41402B00747302 /* ColorValuesManager.m in Sources */,
+				ECBD69F71F414D0300747302 /* QuickCreateUI.m in Sources */,
+				ECBD69A61F413F3200747302 /* AppDelegate.m in Sources */,
+				ECBD69F31F414C9300747302 /* ShowDetailView.m in Sources */,
+				ECBD69E91F41404C00747302 /* ChartView.m in Sources */,
+				ECBD69E21F41402B00747302 /* ColorToImageTools.m in Sources */,
+				ECBD69A31F413F3200747302 /* main.m in Sources */,
+				ECBD69E11F41402B00747302 /* ColorHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69B31F413F3200747302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD69BC1F413F3300747302 /* ChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69BE1F413F3300747302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD69C71F413F3300747302 /* ChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBD69B91F413F3300747302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBD699D1F413F3200747302 /* ChartView */;
+			targetProxy = ECBD69B81F413F3300747302 /* PBXContainerItemProxy */;
+		};
+		ECBD69C41F413F3300747302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBD699D1F413F3200747302 /* ChartView */;
+			targetProxy = ECBD69C31F413F3300747302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBD69AA1F413F3200747302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBD69AB1F413F3200747302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBD69AF1F413F3200747302 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBD69B01F413F3200747302 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBD69C91F413F3300747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBD69CA1F413F3300747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBD69CC1F413F3300747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACEEE0FE7B3CA4778E51C47 /* Pods-ChartView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartView-Prefix.pch";
+				INFOPLIST_FILE = ChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.ChartView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECBD69CD1F413F3300747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4B71AC7D1393217B8B8D17 /* Pods-ChartView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartView-Prefix.pch";
+				INFOPLIST_FILE = ChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.ChartView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECBD69CF1F413F3300747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = ChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.ChartViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartView.app/ChartView";
+			};
+			name = Debug;
+		};
+		ECBD69D01F413F3300747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = ChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.ChartViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartView.app/ChartView";
+			};
+			name = Release;
+		};
+		ECBD69D21F413F3300747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = ChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.ChartViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChartView;
+			};
+			name = Debug;
+		};
+		ECBD69D31F413F3300747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = ChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.ChartViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBD69991F413F3200747302 /* Build configuration list for PBXProject "ChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD69C91F413F3300747302 /* Debug */,
+				ECBD69CA1F413F3300747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBD69CB1F413F3300747302 /* Build configuration list for PBXNativeTarget "ChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD69CC1F413F3300747302 /* Debug */,
+				ECBD69CD1F413F3300747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBD69CE1F413F3300747302 /* Build configuration list for PBXNativeTarget "ChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD69CF1F413F3300747302 /* Debug */,
+				ECBD69D01F413F3300747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBD69D11F413F3300747302 /* Build configuration list for PBXNativeTarget "ChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD69D21F413F3300747302 /* Debug */,
+				ECBD69D31F413F3300747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBD69961F413F3200747302 /* Project object */;
+}

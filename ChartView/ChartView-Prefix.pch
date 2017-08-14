@@ -1,0 +1,22 @@
+//
+//  ChartView-Prefix.h
+//  ChartView
+//
+//  Created by fns on 2017/8/14.
+//  Copyright © 2017年 lsh726. All rights reserved.
+//
+
+#ifndef ChartView_Prefix_h
+#define ChartView_Prefix_h
+
+#import "ColorHex.h"
+#import "QuickCreateUI.h"
+#import "Masonry.h"
+
+
+#define iPhone5     ([[UIScreen mainScreen] bounds].size.height==568)
+#define SCALEWIDTH(params) (params * [UIScreen mainScreen].bounds.size.width / 375.f)   //依据6为标准
+#define SCALEHEIGHT(params) (params * [UIScreen mainScreen].bounds.size.height / 667.f)
+
+
+#endif /* ChartView_Prefix_h */
